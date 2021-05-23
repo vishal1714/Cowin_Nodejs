@@ -24,6 +24,7 @@ const CallCowin = () => {
       .format("DD-MM-YYYY");
     APICall(DinamicDate);
   }
+
   console.log("Calling Every 10 Sec");
 };
 
