@@ -1,0 +1,23 @@
+{
+  "name": "cowin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "fast-two-sms": "^3.0.0",
+    "fs": "0.0.1-security",
+    "moment-timezone": "^0.5.33",
+    "mongoose": "^5.12.10",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.6.1"
+  }
+}
