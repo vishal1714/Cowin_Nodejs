@@ -17,7 +17,7 @@ dotenv.config({ path: "./config/config.env" });
 const CallCowin = () => {
   var Today = moment().tz("Asia/Kolkata").format("DD-MM-YYYY");
   //APICall(Today);
-  for (i = 0; i <= 2; i++) {
+  for (i = 0; i <= 3; i++) {
     var DinamicDate = moment()
       .add(+i, "days")
       .tz("Asia/Kolkata")
@@ -28,7 +28,7 @@ const CallCowin = () => {
   console.log("Calling Every 10 Sec");
 };
 
-setInterval(CallCowin, 10000);
+setInterval(CallCowin, 12000);
 
 const APICall = async (date) => {
   //console.log(date);
