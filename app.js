@@ -56,7 +56,7 @@ const APICall = async (date) => {
         Address: result[i].address,
         Pincode: result[i].pincode,
         Fees: result[i].fee,
-        Dose1: result[i].available_capacity_dose2,
+        Dose1: result[i].available_capacity_dose1,
         Date: date,
       };
       CenterArray.push(Center);
@@ -104,8 +104,9 @@ const APICall = async (date) => {
             "CS5gsTjlIjVLJ2Pmm5R8QniIoaiKwB5QbHSLnehqDtORVGxpb4IjsKJTe6Em",
         },
         data: {
-          route: "q",
-          message: `Slots are avilabale Date ${date}`,
+          route : "v3",
+          sender_id : "TXTIND",
+          message: `Slots are avilabale Date ${date},Please check your mail for more information`,
           language: "english",
           flash: 0,
           numbers: "9987242234",
@@ -134,8 +135,9 @@ const APICall = async (date) => {
             "CS5gsTjlIjVLJ2Pmm5R8QniIoaiKwB5QbHSLnehqDtORVGxpb4IjsKJTe6Em",
         },
         data: {
-          route: "q",
-          message: `Slots are avilabale Date ${date}`,
+          route : "v3",
+          sender_id : "TXTIND",
+          message: `Slots are avilabale Date ${date},Please check your mail for more information`,
           language: "english",
           flash: 0,
           numbers: "9987242234",
